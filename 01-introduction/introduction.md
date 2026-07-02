@@ -1,9 +1,5 @@
 # Introduction to Machine Learning
 
-Overview:
-
-1.  [Train a model](https://knowmledge.wordpress.com/2023/09/09/ml-zoomcamp-2023-introduction-to-machine-learning-part-1/#train-a-model)
-2.  [Use a model](https://knowmledge.wordpress.com/2023/09/09/ml-zoomcamp-2023-introduction-to-machine-learning-part-1/#use-a-model)
 
 The introduction starts with an explanation about what ML really is. You can imagine a task that is normally done by an expert, like getting a good price for selling a car. The expert takes the data about the car and combines all the characteristics to get his opinion about the fair price. What he does is, he extracts patterns from the data.If a human is able to do this, so a model can do the same.
 
