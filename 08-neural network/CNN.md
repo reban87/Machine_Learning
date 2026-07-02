@@ -161,13 +161,10 @@ Output Prediction
 
 ---
 
-# CNN Diagram (Add Image)
+# CNN Diagram
 
-```markdown
-![CNN Architecture](images/cnn_architecture.svg)
-```
+<img width="897" height="417" alt="image" src="https://github.com/user-attachments/assets/451d6e68-ff12-4571-89d6-5da6facac063" />
 
----
 
 ---
 
