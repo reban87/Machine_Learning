@@ -85,7 +85,7 @@ Overview:
 1.  What is Supervised Machine Learning?
 2.  Types of Supervised Machine Learning
 
-As I mentioned before (in [part 2 of this Introduction to ML](https://knowmledge.wordpress.com/2023/09/10/ml-zoomcamp-2023-introduction-to-machine-learning-part-2/)) there are several approaches to get a software solution for a problem. To give an overview there is the classical approach where everything is hard-coded. In contrast to this there are AI-approaches.
+There are several approaches to get a software solution for a problem. To give an overview there is the classical approach where everything is hard-coded. In contrast to this there are AI-approaches.
 
 On the one hand there are knowledge-based systems, that are divided into rule-based systems and case-based Reasoning. Rule-based systems were mentioned before in this blog.
 
