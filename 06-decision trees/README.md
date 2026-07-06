@@ -52,6 +52,15 @@ At each node:
 Gini impurity measures how often a randomly chosen element from the set would be incorrectly labeled if it were randomly classified. 
 Measures how “pure” a node is.
 
+Imagine you have a bag of balls with different colors.
+
+If all balls are the same color, you can always guess the color correctly.
+If the bag contains a mix of colors, you'll sometimes guess wrong.
+
+Gini Impurity measures the probability of making a wrong prediction if you randomly assign a class according to the class distribution in that node.
+
+The lower the Gini impurity, the purer the node.
+
 $$
 Gini = 1 - \sum p_i^2
 $$
@@ -64,6 +73,27 @@ $$
 ## 2. Entropy (Information Gain)
 
 Entropy measures disorder. Entropy measures the uncertainty or disorder in a dataset
+Imagine a box containing balls.
+
+Box A
+10 Red
+0 Blue
+
+Before picking a ball, you already know it will be Red.
+
+There is no uncertainty.
+
+Entropy = 0
+
+Box B
+5 Red
+5 Blue
+
+Before picking a ball, you don't know whether it will be Red or Blue.
+
+There is maximum uncertainty.
+
+Entropy = 1 (for two classes)
 
 $$
 Entropy = -\sum p_i \log_2(p_i)
@@ -76,7 +106,17 @@ IG = Entropy(parent) - Entropy(children)
 $$
 
 The tree chooses the split with **maximum information gain**.
+Imagine you're trying to guess the answer to a yes/no question.
 
+Entropy measures how confused you are before asking a question.
+Information Gain measures how much your confusion decreases after asking that question.
+
+For example:
+
+Before asking: "Is the person a student?" → You are very uncertain.
+After asking: Most possibilities are eliminated.
+
+The question gave you a high information gain because it greatly reduced your uncertainty.
 ---
 
 # Example
