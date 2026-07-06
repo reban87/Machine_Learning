@@ -49,7 +49,7 @@ At each node:
 # Splitting Criteria
 
 ## 1. Gini Impurity
-
+Gini impurity measures how often a randomly chosen element from the set would be incorrectly labeled if it were randomly classified. 
 Measures how “pure” a node is.
 
 $$
@@ -63,14 +63,14 @@ $$
 
 ## 2. Entropy (Information Gain)
 
-Entropy measures disorder:
+Entropy measures disorder. Entropy measures the uncertainty or disorder in a dataset
 
 $$
 Entropy = -\sum p_i \log_2(p_i)
 $$
 
 Information Gain:
-
+Information Gain (IG) measures the reduction in entropy after splitting:
 $$
 IG = Entropy(parent) - Entropy(children)
 $$
